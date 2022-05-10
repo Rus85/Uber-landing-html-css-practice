@@ -139,7 +139,6 @@ nav {
 /* .reasons {
     padding: 71px 0 65px 0;
 }
-
 .label {
     margin: 0 auto;
     height: 24px;
@@ -151,7 +150,6 @@ nav {
     font-weight: 300;
     text-transform: uppercase;
 }
-
 .title {
     margin-bottom: 0;
     margin-top: 38px;
@@ -161,14 +159,12 @@ nav {
     text-transform: uppercase;
     text-align: center;
 }
-
 .reasons .reasons_block {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 35px;
 }
-
 .reasons .reasons_block .reasons_round {
     display: flex;
     justify-content: center;
@@ -179,18 +175,15 @@ nav {
     background-color: #1eacc7;
     border-radius: 100%;
 }
-
 .reasons .reasons_block .reasons_descr {
     width: 343px;
 }
-
 .reasons .reasons_block .reasons_descr .reasons_subtitle {
     line-height: 21px;
     color: #1eacc7;
     font-size: 17px;
     font-weight: 400;
 }
-
 .reasons .reasons_block .reasons_descr .reasons_text {
     color: #202020;
     font-size: 15px;
