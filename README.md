@@ -1,2 +1,2 @@
 ## Uber-landing
-### html,css,sass & bootstrap practice
+### Using html,css,sass & bootstrap
