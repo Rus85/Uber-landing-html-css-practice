@@ -66,7 +66,23 @@
 		&_descr
 			margin-top: 20px
 		&_round
-			margin-right: 0px				      
+			margin-right: 0px	
+		
+	.footer
+		&_wrapper
+			flex-wrap: wrap
+		&_wrapper > div 
+			width: 100%
+			display: flex 
+			justify-content: center
+			margin-bottom: 20px
+			&:nth-child(1)
+				order: 2
+				width: 100%
+			&:nth-child(3)
+				order: 3
+				width: 100%
+				justify-content: center				      
 
     
 @media (max-width: 767px)
@@ -140,6 +156,31 @@
 			line-height: 40px
 		&_subheader
 			font-size: 30px
+	.reasons		
+		.title
+			font-size: 26px	
+	.mobile
+		&_title
+			font-size: 26px
+		&_subtitle
+			font-size: 18px	
+		&_item
+			&_subtitle
+				font-size: 21px		
+	.choice
+		&_title
+			font-size: 20px
+		&_subtitle
+			text-align: center
+	.require
+		h2
+			font-size: 26px	
+	.world
+		&_title
+			font-size: 30px
+		&_subtitle
+			text-align: center
+			font-size: 16px												
 
 @media (max-width: 575px)
 
@@ -260,7 +301,6 @@
 			color: #1CA8C3		
 	.world
 		min-height: 360px
-		// background: url('../img/world_bg.png') center (center / cover) no-repeat
 		&_title
 			font-size: 16px
 			line-height: 16px
